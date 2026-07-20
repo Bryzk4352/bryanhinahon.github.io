@@ -14,4 +14,17 @@ p {
     color: white;
 
     font-size: clamp(.6rem, 1.8vw, 1.3rem);
+    line-height: 1.5;
+}
+
+.AboutMe{
+    opacity:0;
+    transition: 1s ease;
+    transform: translateX(-70px);
+}
+
+.AboutMe.show{
+    opacity:1;
+    transform: translateX(0);
+
 }
