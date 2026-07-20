@@ -1,16 +1,17 @@
-.about-content{
-    display:flex;
+.about-content {
+    display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    padding: clamp(1.3rem, 3vw, 3rem);
+
 }
 
-.about-content{
-    display:flex;
-    flex-direction: column;
+p {
+    max-width: 600px;
+    color: white;
 
-
-    p{
-        
-    }
+    font-size: clamp(.6rem, 1.8vw, 1.3rem);
 }
