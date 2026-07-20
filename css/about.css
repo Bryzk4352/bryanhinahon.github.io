@@ -4,3 +4,13 @@
     flex-wrap: nowrap;
     
 }
+
+.about-content{
+    display:flex;
+    flex-direction: column;
+
+
+    p{
+        
+    }
+}

@@ -100,7 +100,7 @@ header {
     left: 50%;
     transform: translateX(-50%);
     z-index: 10000;
-    transition: .3s ease-out;
+    transition: .3s ease;
 
 }
 
