@@ -3,7 +3,18 @@
 }
 
 :root {
+    --text-primary: #FFFF;
     --text-color: #60A5FA;
+    --text-secondary: #CBD5E1;
+    --text-weight: 900; 
+
+    --sub-b-weight: 800;
+
+
+    --card-bg: rgba(255, 255, 255, .03);
+
+    --fs-p: font-size: clamp(.9rem, 1.4vw, 1.3rem);
+
 }
 
 body {
