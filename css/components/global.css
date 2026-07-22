@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --text-color: #60A5FA;
+}
+
 body {
     background: radial-gradient(circle,
             #1d3557,
@@ -95,7 +99,7 @@ header {
     width: 0%;
     height: 2px;
 
-     background: cadetblue;
+    background: cadetblue;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
