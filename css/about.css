@@ -13,10 +13,10 @@
 
 .AboutMe {
     max-width: 600px;
-    color: white;
+    color: var(--text-primary);
     font-family: "Inter", sans-serif;
 
-    font-size: clamp(.9rem, 1.4vw, 1.3rem);
+    font-size: var(--fs-p);
     line-height: 1.5;
     padding-inline: clamp(1.9rem, 3vw, 3rem);
 
@@ -49,11 +49,11 @@
     padding: 1.2rem;
     width: 100%;
 
-    background: rgba(255, 255, 255, .03);
+    background: var(--card-bg);
     border: 1px solid rgba(255, 255, 255, .08);
     border-radius: 16px;
 
-    padding: 1.3rem;
+    padding: 1rem;
     transition: .35s ease;
 
     cursor: pointer;
@@ -69,14 +69,22 @@
 
 
     h3 {
-        color: #60A5FA;
+       color: var(--text-primary);
         opacity: .8;
         text-align: center;
         font-family: "Poppins", sans-serif;
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: 600;
         letter-spacing: .5px;
+        font-weight:  var(--text-weight);
 
+    }
+
+    p{
+        text-transform: uppercase;
+        color: var(--text-secondary);
+        text-align: center;
+        font-weight: var(--sub-b-weight);
     }
 
 }
@@ -91,17 +99,18 @@
 
 }
 
+.aboutinfo{
+    color: var(--text-primary);
+}
+
 
 .info-card.show {
     opacity: 1;
 }
 
-.obj ul {
-    margin: 0;
-    padding: 0;
+.core-c li {
+   line-height: 1.5;
+    
+} 
 
-}
 
-.obj li {
-    color: white;
-}
