@@ -1,0 +1,25 @@
+.portfolio-nav{
+      
+  
+    width:min(600px, 90%);
+   
+    padding-block: clamp(0.8rem, 2vw, 1rem);
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    gap:30px;
+    background:  var(--surface-bg);
+    margin: 10px auto;
+    border-radius: 10px;
+    
+}
+
+.portfolio-nav a{
+    text-decoration: none;
+     font-size: var(--nav-a-fSize);
+    color: var(--text-primary);
+    
+
+}
