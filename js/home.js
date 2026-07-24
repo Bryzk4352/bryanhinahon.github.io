@@ -22,7 +22,7 @@ const observer = new IntersectionObserver((entries) => {
     
     if(!entry.isIntersecting) return;
 
-    if (entry.classsList.contains('.info-cards')) {
+    if (entry.target.classList.contains('info-card')) {
 
       const delay = [...infoCards].indexOf(entry.target) * 180; //it jobs is for delay animation for cards
       
