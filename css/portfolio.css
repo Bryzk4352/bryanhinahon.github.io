@@ -20,6 +20,11 @@
     text-decoration: none;
      font-size: var(--nav-a-fSize);
     color: var(--text-primary);
+    transition: .3s;
     
 
+}
+
+.portfolio-nav a:hover{
+  color: var(--link-hover-color);
 }
