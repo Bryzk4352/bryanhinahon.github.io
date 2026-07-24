@@ -8,13 +8,13 @@
     --text-secondary: #CBD5E1;
     --text-weight: 900;
     --sub-b-weight: 800;
-    --nav-a-fSize : clamp(.9rem, 1.7vw, 1.8rem);
+    --nav-a-fSize : clamp(.9rem, 1.8vw, 1.8rem);
     --link-hover-color: #60A5FA;
 
 
     --surface-bg: rgba(255, 255, 255, .03);
     --surface-border: border: 1px solid rgba(255, 255, 255, .08);
-    --surface-blur: 
+  
 
     --fs-p: font-size: clamp(.9rem, 1.4vw, 1.3rem);
 
