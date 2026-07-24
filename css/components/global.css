@@ -6,12 +6,15 @@
     --text-primary: #FFFF;
     --text-color: #60A5FA;
     --text-secondary: #CBD5E1;
-    --text-weight: 900; 
-
+    --text-weight: 900;
     --sub-b-weight: 800;
+    --nav-a-fSize : clamp(.9rem, 1.7vw, 1.8rem);
+    --link-hover-color: #60A5FA;
 
 
-    --card-bg: rgba(255, 255, 255, .03);
+    --surface-bg: rgba(255, 255, 255, .03);
+    --surface-border: border: 1px solid rgba(255, 255, 255, .08);
+    --surface-blur: 
 
     --fs-p: font-size: clamp(.9rem, 1.4vw, 1.3rem);
 
@@ -77,9 +80,9 @@ header {
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
 
-    background: rgba(255, 255, 255, .05);
+    background: var(--surface-bg);
 
-    border-bottom: 1px solid rgba(255, 255, 255, .08);
+    border-bottom: var(--surface-border);
 
     box-shadow: 0 8px 32px rgba(0, 0, 0, .25);
 }
@@ -95,13 +98,13 @@ header {
 .navigator a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: var(--nav-a-fSize);
     position: relative;
     transition: 0.3s;
 }
 
 .navigator a:hover {
-    color: #60A5FA;
+    color: var(--link-hover-color);
 }
 
 .navigator a::before {
@@ -117,12 +120,24 @@ header {
     z-index: 10000;
     transition: .3s ease;
 
+
 }
 
 .navigator a:hover::before {
     width: 100%;
     box-shadow:
         0 0 8px rgba(96, 165, 250, .6)
+}
+
+.heading-title{
+    opacity:0;
+    transform: translateY(-90%);
+    transition:.5s ease;
+}
+
+.heading-title.show{
+    opacity:1;
+    transform:translateY(0%);
 }
 
 
@@ -166,7 +181,7 @@ header {
         flex-direction: column;
         position: absolute;
         top: 70px;
-        right: 20px;
+        right:20px;
 
     }
 
