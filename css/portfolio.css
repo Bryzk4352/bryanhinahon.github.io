@@ -21,10 +21,33 @@
      font-size: var(--nav-a-fSize);
     color: var(--text-primary);
     transition: .3s;
+    position: relative;
     
 
 }
 
 .portfolio-nav a:hover{
   color: var(--link-hover-color);
+}
+
+.portfolio-nav a::before {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 2px;
+
+    background: cadetblue;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+    transition: .3s ease;
+
+
+}
+
+.portfolio-nav a:hover::before {
+    width: 100%;
+    box-shadow:
+        0 0 8px rgba(96, 165, 250, .6)
 }
