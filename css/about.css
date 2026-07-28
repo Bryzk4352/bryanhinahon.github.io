@@ -5,20 +5,20 @@
     grid-template-columns: repeat(2, 1fr);
 
 
-    padding: clamp(1.3rem, 3vw, 3rem);
+    padding: clamp(1.3rem, 3vw, 2rem);
     gap: 0
 }
 
 
 
 .AboutMe {
-    max-width: 600px;
+    max-width: 900px;
     color: var(--text-primary);
     font-family: "Inter", sans-serif;
 
     font-size: var(--fs-p);
     line-height: 1.5;
-    padding-inline: clamp(1.9rem, 3vw, 3rem);
+    padding-inline: clamp(1rem, 3vw, 2rem);
 
     opacity: 0;
     transition: 1s ease;
@@ -36,18 +36,18 @@
 .infocontainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: min(100%, 520px);
+    width: min(90%, 620px);
 
     justify-self: end;
-    gap: .8rem;
+     gap: .8rem;
     height: auto;
 }
 
 .info-card {
     border: 1px solid rgba(255, 255, 255, .08);
   
-    padding: 1.2rem;
-    width: 100%;
+    
+    width: min(100%, 500px);
 
    
     border: 1px solid rgba(255, 255, 255, .08);
@@ -111,6 +111,17 @@
     opacity: 1;
 }
 
+
+@media(max-width:832px) {
+    .about-content{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+
+    .infocontainer{
+        justify-self: center;
+    }
+}
 
 
 
