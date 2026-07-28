@@ -55,7 +55,7 @@
     padding: clamp(1rem, 3vw, 5rem);
     flex-wrap: wrap-reverse;
 
-    min-height: calc(100dvh - 60px);
+    
 
 }
 
@@ -152,7 +152,7 @@
 /* IMAGE PROFILE */
 .profile {
 
-    width: min(250px, 70vw);
+    width: min(250px, 55vw);
     aspect-ratio: 1;
     border-radius: 50%;
     object-fit: cover;
@@ -171,7 +171,7 @@
 
 .avatar.show {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateY(20px);
 }
 
 /* BUTTON SPECIAL */
@@ -276,14 +276,14 @@ html {
 
 @media(max-width: 832px) {
     .container {
-        flex-direction: column;
+        min-height:auto;
+         padding-top:6rem;
+        padding-bottom:3rem;
         align-items: center;
         flex-direction: column-reverse;
 
     }
-   .avatar.show  {
-        transform: none;
-    }
+   
 
     .profile{
         margin-top:4rem;
