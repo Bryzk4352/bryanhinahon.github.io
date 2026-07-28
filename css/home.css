@@ -60,7 +60,7 @@
     display: flex;
     width: 100%;
     align-items: center;
-    gap: 1rem;
+    gap: 10px;
     justify-content: space-between;
     padding: clamp(1rem, 3vw, 5rem);
     flex-wrap: wrap-reverse;
@@ -148,7 +148,7 @@
     color: var(--text-color);
 }
 
-.SoftEngr{
+.SoftEngr {
     color: var(--text-color);
 }
 
@@ -235,4 +235,31 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+@media(max-width: 832px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .home-text {
+        align-items: center;
+        margin: 0;
+    }
+
+    .Social {
+        padding-inline: clamp()
+    }
+
+
+}
+
+@media(max-width: 826px) {
+    .home-subheading {
+        text-align: center;
+    }
+
+
 }
