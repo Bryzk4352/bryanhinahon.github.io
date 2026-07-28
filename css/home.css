@@ -237,11 +237,65 @@ html {
     scroll-behavior: smooth;
 }
 
+@media (max-width: 767px) {
+    .ProfileHolder {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+
+    }
+
+
+
+    
+
+    .Aspire {
+        display: inline-block;
+        width: 27ch;
+        height: 1.3em;
+        line-height: 1.3em;
+    }
+
+
+
+    .menu-btn {
+        display: flex;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+}
+
+
+.section-title {
+    padding-top: 50px;
+    display: block;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: burlywood;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
 @media(max-width: 832px) {
     .container {
         flex-direction: column;
         align-items: center;
         flex-direction: column-reverse;
+
+    }
+   .profile {
+      
+        margin-top: 4rem;
+        transform: none;
+
     }
 
     .home-text {
@@ -249,17 +303,18 @@ html {
         margin: 0;
     }
 
-    .Social {
-        padding-inline: clamp()
-    }
-
+    
 
 }
 
-@media(max-width: 826px) {
+@media(max-width: 828px) {
     .home-subheading {
         text-align: center;
     }
 
+    ul {
+        margin-top: 30px;
+        padding-inline: 20px;
+    }
 
 }
