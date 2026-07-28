@@ -291,11 +291,12 @@ html {
         flex-direction: column-reverse;
 
     }
-   .profile {
-      
-        margin-top: 4rem;
+   .avatar.show  {
         transform: none;
+    }
 
+    .profile{
+        margin-top:4rem;
     }
 
     .home-text {
