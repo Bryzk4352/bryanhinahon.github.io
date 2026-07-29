@@ -1,18 +1,18 @@
 .portfolio-nav{
       
   
-    width:min(600px, 90%);
-   
-    padding-block: clamp(0.8rem, 2vw, 1rem);
+    width:min(900px, 85%);
+    height: auto;
+    padding-block: clamp(0.1rem, 1vw, 2rem);
 
     display:flex;
     justify-content: center;
     align-items: center;
 
-    gap:30px;
+    gap:2rem;
     background:  var(--surface-bg);
     margin: 10px auto;
-    border-radius: 10px;
+    border-radius: 5px;
     
 }
 
@@ -22,6 +22,7 @@
     color: var(--text-primary);
     transition: .3s;
     position: relative;
+    white-space: nowrap;
     
 
 }
