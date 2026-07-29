@@ -18,7 +18,7 @@
     color: bisque;
     overflow: hidden;
     animation: typing 3s steps(27) infinite alternate-reverse;
-    margin-inline: clamp(2rem, 1.9vw, 3rem);
+    padding-inline: clamp(2rem, 1.9vw, 3rem);
 
 }
 
@@ -275,13 +275,14 @@ html {
 
 
 
-@media(max-width: 832px) {
+@media(max-width: 834px) {
     .container {
         min-height:auto;
          padding-top:6rem;
         padding-bottom:3rem;
         align-items: center;
         flex-direction: column-reverse;
+    
 
     }
    
