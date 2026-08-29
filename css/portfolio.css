@@ -1,7 +1,7 @@
 .portfolio-nav{
       
   
-    width:min(900px, 85%);
+    width:min(900px, 95%);
     height: auto;
     padding-block: clamp(0.1rem, 1vw, 2rem);
 
